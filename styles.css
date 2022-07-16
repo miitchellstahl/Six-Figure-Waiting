@@ -7,8 +7,9 @@
 }
 
 .container {
+    background-color: inherit;
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     color: #4C4452;
     display: flex;
     align-items: center;
