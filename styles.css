@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(#F7EEFF, #EFF6FF);
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    color: #4C4452;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text__container {
+    text-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+}
+
+.container p {
+    font-weight: 100;
+    font-size: 1.77rem;
+    background: linear-gradient(90deg, #AE77DB -16.39%, #E16C4A 121.85%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container h1 {
+    font-size: 5.61rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.auto-type {
+    background: none;
+    color: #EBBB74;
+}
+
+@media only screen and (max-width: 768px) {
+    .container h1 {
+        font-size: 3.157rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .container p {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .container h1 {
+        font-size: 2.369rem;
+        margin-bottom: 1rem;
+    }
+
+    .container p {
+        font-size: .75rem;
+    }
+}
