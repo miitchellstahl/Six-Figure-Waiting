@@ -2,12 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: linear-gradient(#F7EEFF, #EFF6FF);
     font-family: 'Proxima Nova', sans-serif;
 }
 
 .container {
-    background-color: inherit;
+    background: linear-gradient(#F7EEFF, #EFF6FF);
     width: 100%;
     height: 100vh;
     color: #4C4452;
