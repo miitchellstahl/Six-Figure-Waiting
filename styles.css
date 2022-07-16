@@ -52,6 +52,12 @@
 }
 
 @media only screen and (max-width: 450px) {
+
+    .container {
+        height: calc(100vh - calc(100vh - 100%));
+    }
+
+
     .container h1 {
         font-size: 2.369rem;
         margin-bottom: 1rem;
