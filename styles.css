@@ -5,9 +5,9 @@
     font-family: 'Proxima Nova', sans-serif;
 }
 
-body,
-html {
-    min-height: 100vh;
+html,
+body {
+    height: 100%;
 }
 
 .container {
